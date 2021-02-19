@@ -1,0 +1,47 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "React webpack-based boilerplate to create some awesome react apps",
+  "repository": "https://github.com/bkhanale/react-boilerplate",
+  "author": "Bhushan Khanale",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --open --mode development",
+    "build": "webpack --mode production",
+    "prettify": "prettier --write **/*.{ts,tsx,js,jsx,json}",
+    "lint:eslint": "eslint . --ext .js,.jsx",
+    "lint:eslint:fix": "eslint . --ext .js,.jsx --fix"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "autoprefixer": "^10.2.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.2",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.2",
+    "postcss": "^8.2.6",
+    "postcss-loader": "^5.0.0",
+    "prettier": "^2.2.1",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^2.0.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
